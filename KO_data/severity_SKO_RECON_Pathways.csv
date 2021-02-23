@@ -1,0 +1,39 @@
+Pathway,NB,Phenotype
+"Fatty acid oxidation",2,S1
+"Glycerophospholipid metabolism",19,S1
+"Methionine and cysteine metabolism",3,S1
+"Nucleotide interconversion",42,S1
+"Sphingolipid metabolism",2,S1
+"Starch and sucrose metabolism",4,S1
+"Transport, extracellular",134,S1
+"Glycerophospholipid metabolism",19,S16
+"Methionine and cysteine metabolism",3,S16
+"Nucleotide interconversion",42,S16
+"Sphingolipid metabolism",2,S16
+"Starch and sucrose metabolism",4,S16
+"Transport, extracellular",96,S16
+"Glycerophospholipid metabolism",18,S2
+"Inositol phosphate metabolism",2,S2
+"Sphingolipid metabolism",2,S2
+"Starch and sucrose metabolism",2,S2
+"Transport, extracellular",28,S2
+"Glycerophospholipid metabolism",18,S5
+"Inositol phosphate metabolism",2,S5
+"Nucleotide interconversion",5,S5
+"Pyrimidine synthesis",1,S5
+"Sphingolipid metabolism",2,S5
+"Starch and sucrose metabolism",2,S5
+"Transport, extracellular",30,S5
+"Alanine and aspartate metabolism",1,S6
+"Fatty acid oxidation",2,S6
+"Folate metabolism",6,S6
+"Glycerophospholipid metabolism",18,S6
+"Glycine, serine, alanine, and threonine metabolism",2,S6
+"Nucleotide interconversion",3,S6
+"Sphingolipid metabolism",2,S6
+"Transport, extracellular",43,S6
+"Fatty acid oxidation",2,S7
+"Glycerophospholipid metabolism",18,S7
+"Nucleotide interconversion",42,S7
+"Sphingolipid metabolism",2,S7
+"Transport, extracellular",43,S7

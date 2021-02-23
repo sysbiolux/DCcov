@@ -1,0 +1,56 @@
+Pathway,NB,Phenotype
+"Fatty acid oxidation",2,Calu3_12h
+"Glycerophospholipid metabolism",18,Calu3_12h
+"Inositol phosphate metabolism",2,Calu3_12h
+"Nucleotide interconversion",2,Calu3_12h
+"Sphingolipid metabolism",2,Calu3_12h
+"Starch and sucrose metabolism",2,Calu3_12h
+"Transport, extracellular",186,Calu3_12h
+"Fatty acid oxidation",2,Calu3_24h
+"Glycerophospholipid metabolism",19,Calu3_24h
+"Inositol phosphate metabolism",2,Calu3_24h
+"Nucleotide interconversion",2,Calu3_24h
+"Sphingolipid metabolism",2,Calu3_24h
+"Starch and sucrose metabolism",2,Calu3_24h
+"Transport, extracellular",185,Calu3_24h
+"Fatty acid oxidation",2,Calu3_4h
+"Glycerophospholipid metabolism",18,Calu3_4h
+"Inositol phosphate metabolism",2,Calu3_4h
+"Nucleotide interconversion",2,Calu3_4h
+"Sphingolipid metabolism",2,Calu3_4h
+"Starch and sucrose metabolism",2,Calu3_4h
+"Transport, extracellular",72,Calu3_4h
+"Fatty acid oxidation",2,Calu3_8h
+"Glycerophospholipid metabolism",18,Calu3_8h
+"Inositol phosphate metabolism",2,Calu3_8h
+"Nucleotide interconversion",2,Calu3_8h
+"Sphingolipid metabolism",2,Calu3_8h
+"Starch and sucrose metabolism",2,Calu3_8h
+"Transport, extracellular",187,Calu3_8h
+"Fatty acid oxidation",2,H1299_12h
+"Glycerophospholipid metabolism",36,H1299_12h
+"Inositol phosphate metabolism",2,H1299_12h
+"Methionine and cysteine metabolism",3,H1299_12h
+"Phosphatidylinositol phosphate metabolism",1,H1299_12h
+"Sphingolipid metabolism",2,H1299_12h
+"Transport, extracellular",350,H1299_12h
+"Fatty acid oxidation",2,H1299_24h
+"Glycerophospholipid metabolism",36,H1299_24h
+"Inositol phosphate metabolism",2,H1299_24h
+"Phosphatidylinositol phosphate metabolism",1,H1299_24h
+"Sphingolipid metabolism",2,H1299_24h
+"Transport, extracellular",350,H1299_24h
+"Fatty acid oxidation",2,H1299_36h
+"Glycerophospholipid metabolism",36,H1299_36h
+"Inositol phosphate metabolism",2,H1299_36h
+"Methionine and cysteine metabolism",3,H1299_36h
+"Phosphatidylinositol phosphate metabolism",1,H1299_36h
+"Sphingolipid metabolism",2,H1299_36h
+"Transport, extracellular",350,H1299_36h
+"Fatty acid oxidation",2,H1299_4h
+"Glycerophospholipid metabolism",36,H1299_4h
+"Inositol phosphate metabolism",2,H1299_4h
+"Methionine and cysteine metabolism",3,H1299_4h
+"Phosphatidylinositol phosphate metabolism",1,H1299_4h
+"Sphingolipid metabolism",2,H1299_4h
+"Transport, extracellular",348,H1299_4h
