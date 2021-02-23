@@ -1,0 +1,246 @@
+Pathway,Down_regulated,Up_regulated,Phenotype
+"Arginine and proline metabolism",0,2,Series1
+"Chondroitin synthesis",0,1,Series1
+"Oxidative phosphorylation",-1,0,Series1
+"Urea cycle",0,1,Series1
+"Alanine and aspartate metabolism",-2,1,Series16
+"Aminosugar metabolism",-6,0,Series16
+"Androgen and estrogen synthesis and metabolism",-11,0,Series16
+"Arachidonic acid metabolism",-7,0,Series16
+"Arginine and proline metabolism",-3,0,Series16
+"Beta-Alanine metabolism",-1,1,Series16
+"Bile acid synthesis",-59,1,Series16
+"Butanoate metabolism",-1,0,Series16
+"Cholesterol metabolism",-5,2,Series16
+"Chondroitin sulfate degradation",-24,0,Series16
+"Chondroitin synthesis",-22,0,Series16
+"Citric acid cycle",-1,0,Series16
+"CoA catabolism",-2,0,Series16
+"Cytochrome metabolism",-2,0,Series16
+"Drug metabolism",-19,3,Series16
+"Eicosanoid metabolism",-11,1,Series16
+"Fatty acid oxidation",-301,60,Series16
+"Fatty acid synthesis",-87,0,Series16
+"Folate metabolism",-8,0,Series16
+"Fructose and mannose metabolism",-14,0,Series16
+"Galactose metabolism",-8,0,Series16
+"Glutamate metabolism",-2,1,Series16
+"Glutathione metabolism",-1,4,Series16
+"Glycerophospholipid metabolism",-36,1,Series16
+"Glycine, serine, alanine, and threonine metabolism",-3,1,Series16
+"Glycolysis/gluconeogenesis",-14,1,Series16
+"Glycosphingolipid metabolism",-13,7,Series16
+"Glyoxylate and dicarboxylate metabolism",-4,0,Series16
+"Heme degradation",-1,0,Series16
+"Heme synthesis",-1,1,Series16
+"Heparan sulfate degradation",-5,0,Series16
+"Histidine metabolism",-3,1,Series16
+"Hyaluronan metabolism",-3,0,Series16
+"Inositol phosphate metabolism",-15,0,Series16
+"Keratan sulfate degradation",-34,0,Series16
+"Keratan sulfate synthesis",-12,0,Series16
+"Leukotriene metabolism",-3,0,Series16
+"Linoleate metabolism",-1,0,Series16
+"Lipoate metabolism",0,1,Series16
+"Lysine metabolism",-4,0,Series16
+"Methionine and cysteine metabolism",-13,0,Series16
+"Miscellaneous",-17,7,Series16
+"N-glycan degradation",-3,0,Series16
+"N-glycan metabolism",-1,0,Series16
+"N-glycan synthesis",-2,0,Series16
+"NAD metabolism",-4,0,Series16
+"Nucleotide interconversion",-28,0,Series16
+"O-glycan metabolism",-2,0,Series16
+"Oxidative phosphorylation",-5,1,Series16
+"Pentose phosphate pathway",-10,0,Series16
+"Phenylalanine metabolism",-8,1,Series16
+"Phosphatidylinositol phosphate metabolism",-10,0,Series16
+"Propanoate metabolism",-4,1,Series16
+"Purine catabolism",-7,1,Series16
+"Purine synthesis",-1,2,Series16
+"Pyrimidine catabolism",-10,1,Series16
+"Pyrimidine synthesis",-1,0,Series16
+"Pyruvate metabolism",-9,2,Series16
+"ROS detoxification",-3,0,Series16
+"Sphingolipid metabolism",-16,5,Series16
+"Squalene and cholesterol synthesis",-3,0,Series16
+"Starch and sucrose metabolism",-8,0,Series16
+"Steroid metabolism",-29,0,Series16
+"Taurine and hypotaurine metabolism",-2,1,Series16
+"Tetrahydrobiopterin metabolism",-3,0,Series16
+"Transport, endoplasmic reticular",-5,1,Series16
+"Transport, extracellular",-482,11,Series16
+"Transport, golgi apparatus",-3,0,Series16
+"Transport, mitochondrial",-50,0,Series16
+"Transport, nuclear",-2,0,Series16
+"Transport, peroxisomal",-1,1,Series16
+"Triacylglycerol synthesis",-3,0,Series16
+"Tryptophan metabolism",-15,1,Series16
+"Tyrosine metabolism",-17,1,Series16
+"Ubiquinone synthesis",0,2,Series16
+"Urea cycle",-5,0,Series16
+"Valine, leucine, and isoleucine metabolism",-12,5,Series16
+"Vitamin A metabolism",-5,0,Series16
+"Vitamin B2 metabolism",-2,0,Series16
+"Vitamin B6 metabolism",-1,0,Series16
+"Androgen and estrogen synthesis and metabolism",-4,0,Series5
+"Arginine and proline metabolism",-1,2,Series5
+"Beta-Alanine metabolism",-1,0,Series5
+"Bile acid synthesis",-1,6,Series5
+"Blood group synthesis",-1,0,Series5
+"Cholesterol metabolism",-7,4,Series5
+"Chondroitin synthesis",-6,1,Series5
+"Citric acid cycle",-3,0,Series5
+"CoA catabolism",-1,0,Series5
+"Cytochrome metabolism",-3,0,Series5
+"Drug metabolism",0,3,Series5
+"Eicosanoid metabolism",-2,1,Series5
+"Fatty acid oxidation",-125,79,Series5
+"Fatty acid synthesis",-96,0,Series5
+"Folate metabolism",0,3,Series5
+"Fructose and mannose metabolism",-1,0,Series5
+"Galactose metabolism",-1,0,Series5
+"Glutathione metabolism",-1,2,Series5
+"Glycerophospholipid metabolism",-24,3,Series5
+"Glycolysis/gluconeogenesis",-4,1,Series5
+"Glycosphingolipid metabolism",-8,0,Series5
+"Glyoxylate and dicarboxylate metabolism",-2,1,Series5
+"Heme synthesis",-1,0,Series5
+"Histidine metabolism",-1,1,Series5
+"Inositol phosphate metabolism",-3,4,Series5
+"Lysine metabolism",-2,0,Series5
+"Methionine and cysteine metabolism",-1,1,Series5
+"Miscellaneous",-9,0,Series5
+"NAD metabolism",-3,4,Series5
+"Nucleotide interconversion",-1,17,Series5
+"O-glycan metabolism",-1,0,Series5
+"Oxidative phosphorylation",0,3,Series5
+"Pentose phosphate pathway",0,1,Series5
+"Phenylalanine metabolism",-2,2,Series5
+"Phosphatidylinositol phosphate metabolism",-3,2,Series5
+"Propanoate metabolism",-1,0,Series5
+"Purine catabolism",-1,2,Series5
+"Purine synthesis",-2,0,Series5
+"Pyrimidine catabolism",0,4,Series5
+"Pyruvate metabolism",-6,2,Series5
+"Sphingolipid metabolism",-3,1,Series5
+"Squalene and cholesterol synthesis",-2,0,Series5
+"Starch and sucrose metabolism",-4,0,Series5
+"Steroid metabolism",-6,1,Series5
+"Tetrahydrobiopterin metabolism",-1,2,Series5
+"Transport, extracellular",-20,45,Series5
+"Transport, mitochondrial",0,4,Series5
+"Transport, nuclear",0,1,Series5
+"Tryptophan metabolism",-6,2,Series5
+"Tyrosine metabolism",-5,6,Series5
+"Urea cycle",0,2,Series5
+"Valine, leucine, and isoleucine metabolism",-4,0,Series5
+"Vitamin C metabolism",-1,0,Series5
+"Alanine and aspartate metabolism",-1,0,Series6
+"Aminosugar metabolism",-1,0,Series6
+"Androgen and estrogen synthesis and metabolism",-2,2,Series6
+"Arachidonic acid metabolism",-4,0,Series6
+"Arginine and proline metabolism",-1,0,Series6
+"Bile acid synthesis",-2,0,Series6
+"Blood group synthesis",0,1,Series6
+"Cholesterol metabolism",0,2,Series6
+"Chondroitin sulfate degradation",-5,0,Series6
+"Chondroitin synthesis",-1,0,Series6
+"Citric acid cycle",-1,1,Series6
+"Drug metabolism",0,1,Series6
+"Fatty acid oxidation",0,95,Series6
+"Fatty acid synthesis",0,3,Series6
+"Folate metabolism",0,1,Series6
+"Fructose and mannose metabolism",0,1,Series6
+"Galactose metabolism",-1,0,Series6
+"Glutathione metabolism",-1,0,Series6
+"Glycerophospholipid metabolism",-21,0,Series6
+"Glycine, serine, alanine, and threonine metabolism",-2,0,Series6
+"Glycolysis/gluconeogenesis",0,1,Series6
+"Glycosphingolipid metabolism",-4,0,Series6
+"Glyoxylate and dicarboxylate metabolism",0,1,Series6
+"Histidine metabolism",-1,0,Series6
+"Inositol phosphate metabolism",-4,3,Series6
+"Keratan sulfate degradation",-2,0,Series6
+"Linoleate metabolism",-1,0,Series6
+"Lysine metabolism",-2,1,Series6
+"Methionine and cysteine metabolism",0,1,Series6
+"Miscellaneous",-3,0,Series6
+"NAD metabolism",-3,1,Series6
+"Nucleotide interconversion",-12,0,Series6
+"Oxidative phosphorylation",0,1,Series6
+"Pentose phosphate pathway",-2,0,Series6
+"Phenylalanine metabolism",-4,0,Series6
+"Phosphatidylinositol phosphate metabolism",-6,0,Series6
+"Propanoate metabolism",0,2,Series6
+"Purine catabolism",-2,0,Series6
+"Pyrimidine catabolism",-3,1,Series6
+"ROS detoxification",0,3,Series6
+"Sphingolipid metabolism",-5,0,Series6
+"Steroid metabolism",-6,1,Series6
+"Transport, endoplasmic reticular",-1,0,Series6
+"Transport, extracellular",-50,0,Series6
+"Transport, mitochondrial",-2,3,Series6
+"Transport, nuclear",-1,0,Series6
+"Tryptophan metabolism",-2,0,Series6
+"Tyrosine metabolism",-11,0,Series6
+"Urea cycle",0,1,Series6
+"Valine, leucine, and isoleucine metabolism",0,2,Series6
+"Alanine and aspartate metabolism",-1,0,Series7
+"Aminosugar metabolism",-1,0,Series7
+"Arginine and proline metabolism",-3,0,Series7
+"Bile acid synthesis",0,2,Series7
+"Blood group synthesis",-1,0,Series7
+"Cholesterol metabolism",-3,51,Series7
+"Chondroitin sulfate degradation",-17,0,Series7
+"Citric acid cycle",-2,3,Series7
+"Drug metabolism",-1,1,Series7
+"Eicosanoid metabolism",-1,0,Series7
+"Fatty acid oxidation",-2,107,Series7
+"Fatty acid synthesis",0,3,Series7
+"Folate metabolism",0,5,Series7
+"Fructose and mannose metabolism",0,1,Series7
+"Galactose metabolism",0,1,Series7
+"Glutamate metabolism",-1,1,Series7
+"Glutathione metabolism",-2,1,Series7
+"Glycerophospholipid metabolism",-27,1,Series7
+"Glycolysis/gluconeogenesis",-4,3,Series7
+"Glycosphingolipid metabolism",-16,1,Series7
+"Glyoxylate and dicarboxylate metabolism",-3,1,Series7
+"Heme synthesis",0,1,Series7
+"Histidine metabolism",-1,0,Series7
+"Hyaluronan metabolism",-3,0,Series7
+"Inositol phosphate metabolism",-8,0,Series7
+"Keratan sulfate degradation",-31,2,Series7
+"Leukotriene metabolism",-1,0,Series7
+"Lysine metabolism",-2,3,Series7
+"Methionine and cysteine metabolism",0,4,Series7
+"Miscellaneous",-10,20,Series7
+"N-glycan degradation",-2,0,Series7
+"N-glycan metabolism",-1,0,Series7
+"N-glycan synthesis",0,2,Series7
+"NAD metabolism",-7,0,Series7
+"Nucleotide interconversion",-69,7,Series7
+"Oxidative phosphorylation",-2,1,Series7
+"Pentose phosphate pathway",-3,2,Series7
+"Phenylalanine metabolism",-7,0,Series7
+"Phosphatidylinositol phosphate metabolism",-7,0,Series7
+"Propanoate metabolism",-1,0,Series7
+"Purine synthesis",-2,0,Series7
+"Pyrimidine synthesis",-2,1,Series7
+"Pyruvate metabolism",-3,4,Series7
+"Sphingolipid metabolism",-10,1,Series7
+"Steroid metabolism",0,1,Series7
+"Tetrahydrobiopterin metabolism",-3,3,Series7
+"Transport, extracellular",-65,22,Series7
+"Transport, golgi apparatus",-2,1,Series7
+"Transport, lysosomal",-1,0,Series7
+"Transport, mitochondrial",-2,5,Series7
+"Transport, nuclear",0,1,Series7
+"Tryptophan metabolism",-2,3,Series7
+"Tyrosine metabolism",-19,1,Series7
+"Urea cycle",-2,0,Series7
+"Valine, leucine, and isoleucine metabolism",0,2,Series7
+"Vitamin A metabolism",-2,0,Series7
+"Vitamin B2 metabolism",-1,0,Series7
+"Vitamin C metabolism",-1,0,Series7
