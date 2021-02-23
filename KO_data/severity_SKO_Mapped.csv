@@ -1,0 +1,13 @@
+,Series,RECON,SKO_Safe_Sym,SKO_Toxic_Sym,SKO_Unknown_Sym,SKO_All
+0,S16,2,"{'PTDSS1', 'CMPK1', 'GUK1', 'CTH'}","{'CRLS1', 'SGMS1'}",{'SLC5A3'},"{'CMPK1', 'SGMS1', 'CRLS1', 'SLC5A3', 'PTDSS1', 'GUK1', 'CTH'}"
+1,S16,3D,"{'SLC7A9', 'PTDSS1', 'SLC3A1', 'GUK1'}","{'CRLS1', 'PEPD', 'SLC2A13'}",{'NaN'},"{'SLC3A1', 'SLC2A13', 'CRLS1', 'SLC7A9', 'PEPD', 'PTDSS1', 'GUK1'}"
+2,S1,2,{'NaN'},"{'CMPK1', 'SLC27A4', 'SGMS1', 'CRLS1', 'SLC5A3', 'GUK1', 'CTH'}",{'NaN'},"{'CMPK1', 'SLC27A4', 'SGMS1', 'CRLS1', 'SLC5A3', 'GUK1', 'CTH'}"
+3,S1,3D,"{'SLC7A9', 'SLC3A1'}","{'CRLS1', 'PTDSS1', 'SGMS1', 'GUK1'}",{'SLC5A3'},"{'SLC3A1', 'SGMS1', 'CRLS1', 'SLC7A9', 'SLC5A3', 'PTDSS1', 'GUK1'}"
+4,S2,2,{'NaN'},"{'CRLS1', 'SGMS1'}",{'NaN'},"{'CRLS1', 'SGMS1'}"
+5,S2,3D,"{'SLC3A2', 'SLC7A11'}","{'CRLS1', 'SGMS1', 'ISYNA1'}",{'NaN'},"{'SLC7A11', 'SGMS1', 'CRLS1', 'SLC3A2', 'ISYNA1'}"
+6,S5,2,{'DTYMK'},"{'CRLS1', 'SGMS1', 'GUK1'}",{'NaN'},"{'CRLS1', 'SGMS1', 'DTYMK', 'GUK1'}"
+7,S5,3D,"{'PEPD', 'GUK1'}","{'SLC7A11', 'SGMS1', 'CRLS1', 'SLC3A2', 'ISYNA1'}",{'NaN'},"{'SLC7A11', 'SGMS1', 'CRLS1', 'PEPD', 'GUK1', 'SLC3A2', 'ISYNA1'}"
+8,S6,2,"{'AGXT', 'SLC27A4', 'DHFR', 'TYMS'}","{'CRLS1', 'SGMS1', 'GUK1'}",{'NaN'},"{'SLC27A4', 'SGMS1', 'CRLS1', 'GUK1', 'DHFR', 'AGXT', 'TYMS'}"
+9,S6,3D,{'NaN'},"{'CRLS1', 'PEPD', 'SGMS1', 'GUK1'}",{'NaN'},"{'CRLS1', 'PEPD', 'SGMS1', 'GUK1'}"
+10,S7,2,"{'SLC27A4', 'CMPK1'}","{'CRLS1', 'SGMS1', 'GUK1'}",{'NaN'},"{'CMPK1', 'SLC27A4', 'SGMS1', 'CRLS1', 'GUK1'}"
+11,S7,3D,{'CMPK1'},"{'CRLS1', 'PEPD', 'SGMS1', 'GUK1'}",{'NaN'},"{'CMPK1', 'SGMS1', 'CRLS1', 'PEPD', 'GUK1'}"

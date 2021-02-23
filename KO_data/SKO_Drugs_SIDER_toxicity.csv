@@ -1,0 +1,16 @@
+,Gene_Symbol,Drugs,side_effect_name
+18,CMPK1,Sofosbuvir,"['Cardiotoxicity', 'Hepatotoxicity', 'Nephropathy toxic', 'Neurotoxicity', 'Oral toxicity', 'Pulmonary toxicity']"
+31,SLC7A5,Gabapentin,['Digitalis intoxication (NOS)']
+36,SLC7A5,"Thyroid, porcine",['Pulmonary toxicity']
+72,DHFR,DB08406,"['CNS toxicity', 'Gastrointestinal toxicity', 'Hepatotoxicity', 'Megacolon toxic', 'Neurotoxicity', 'Pulmonary toxicity']"
+73,DHFR,DB02583,"['CNS toxicity', 'Gastrointestinal toxicity', 'Hepatotoxicity', 'Megacolon toxic', 'Neurotoxicity', 'Pulmonary toxicity']"
+75,DHFR,DB03987,"['Nephropathy toxic', 'Nephrotoxicity', 'Neurotoxicity']"
+77,DHFR,Aminopterin,['Hepatotoxicity']
+78,DHFR,Lamotrigine,['Hepatotoxicity']
+101,TYMS,Thymectacin,['Skin toxicity']
+103,TYMS,Tegafur-uracil,"['Cardiotoxicity', 'Hepatotoxicity', 'Nephropathy toxic', 'Neurotoxicity', 'Oral toxicity', 'Pulmonary toxicity']"
+104,TYMS,ANX-510,"['Cardiotoxicity', 'Ocular toxicity']"
+105,TYMS,OSI-7904L,"['Cardiotoxicity', 'Ocular toxicity']"
+106,TYMS,DB04530,"['CNS toxicity', 'Gastrointestinal toxicity', 'Hepatotoxicity', 'Megacolon toxic', 'Neurotoxicity', 'Pulmonary toxicity']"
+107,TYMS,Pemetrexed,"['CNS toxicity', 'Gastrointestinal toxicity', 'Hepatotoxicity', 'Megacolon toxic', 'Neurotoxicity', 'Pulmonary toxicity']"
+109,TYMS,Tegafur,"['Gastrointestinal toxicity', 'Hepatotoxicity', 'Neurotoxicity']"
