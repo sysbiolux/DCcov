@@ -1,65 +1,53 @@
 ,Drugs1,Drugs2,Gene_Pair,Phenotype_Essentiality,Phenotype_Safety,Number_Genes
-63,Gemcitabine,Pyridoxal phosphate,"{'CMPK1;PLPBP', 'CMPK1;AGXT', 'TYMS;PLPBP'}",1.33,1.33,3
-30,Rosuvastatin,Cysteine,"{'SLC7A11;CBS', 'SLCO1A2;CTH'}",3.0,1.5,2
-32,Taurochenodeoxycholic acid,Pyridoxal phosphate,"{'SLC7A11;CBS', 'SLCO1A2;CTH'}",3.0,1.5,2
-33,Taurocholic acid,Cysteine,"{'SLC7A11;CBS', 'SLCO1A2;CTH'}",3.0,1.5,2
-34,Taurocholic acid,Pyridoxal phosphate,"{'SLC7A11;CBS', 'SLCO1A2;CTH'}",3.0,1.5,2
-35,Tauroursodeoxycholic acid,Cysteine,"{'SLC7A11;CBS', 'SLCO1A2;CTH'}",3.0,1.5,2
-36,Tauroursodeoxycholic acid,Pyridoxal phosphate,"{'SLC7A11;CBS', 'SLCO1A2;CTH'}",3.0,1.5,2
-38,Taurochenodeoxycholic acid,Cysteine,"{'SLC7A11;CBS', 'SLCO1A2;CTH'}",3.0,1.5,2
-39,Rosuvastatin,Pyridoxal phosphate,"{'SLC7A11;CBS', 'SLCO1A2;CTH'}",3.0,1.5,2
-49,Gemcitabine,Phosphatidyl serine,"{'CMPK1;PTDSS1', 'SLC29A2;PTDSS1'}",2.0,2.0,2
-56,Gemcitabine,Proline,"{'CMPK1;PLPBP', 'TYMS;PLPBP'}",1.5,1.5,2
-57,Uridine-5'-Diphosphate,Pyridoxal phosphate,"{'CMPK1;PLPBP', 'CMPK1;AGXT'}",1.5,1.5,2
-58,Sofosbuvir,Pyridoxal phosphate,"{'CMPK1;PLPBP', 'CMPK1;AGXT'}",1.5,1.5,2
-59,DB03664,Pyridoxal phosphate,"{'CMPK1;PLPBP', 'CMPK1;AGXT'}",1.5,1.5,2
-60,Cytidine-5'-Monophosphate,Pyridoxal phosphate,"{'CMPK1;PLPBP', 'CMPK1;AGXT'}",1.5,1.5,2
-61,Tetrafluoroaluminate Ion,Pyridoxal phosphate,"{'CMPK1;PLPBP', 'CMPK1;AGXT'}",1.5,1.5,2
-62,Lamivudine,Pyridoxal phosphate,"{'CMPK1;PLPBP', 'CMPK1;AGXT'}",1.5,1.5,2
-0,Thimerosal,Serine,{'SLC7A11;CBS'},5.0,3.0,1
-1,Thimerosal,Pyridoxal phosphate,{'SLC7A11;CBS'},5.0,3.0,1
-2,Thimerosal,Cysteine,{'SLC7A11;CBS'},5.0,3.0,1
-3,Thimerosal,Ademetionine,{'SLC7A11;CBS'},5.0,3.0,1
-4,Acetylcysteine,Ademetionine,{'SLC7A11;CBS'},5.0,3.0,1
-5,Tauroursodeoxycholic acid,Serine,{'SLC7A11;CBS'},5.0,3.0,1
-6,Alanosine,Pyridoxal phosphate,{'SLC7A11;CBS'},5.0,3.0,1
-7,Riluzole,Cysteine,{'SLC7A11;CBS'},5.0,3.0,1
-8,Riluzole,Ademetionine,{'SLC7A11;CBS'},5.0,3.0,1
-9,Rosuvastatin,Ademetionine,{'SLC7A11;CBS'},5.0,3.0,1
-10,Rosuvastatin,Serine,{'SLC7A11;CBS'},5.0,3.0,1
-11,Alanosine,Serine,{'SLC7A11;CBS'},5.0,3.0,1
-12,Alanosine,Cysteine,{'SLC7A11;CBS'},5.0,3.0,1
-13,Riluzole,Serine,{'SLC7A11;CBS'},5.0,3.0,1
-14,Alanosine,Ademetionine,{'SLC7A11;CBS'},5.0,3.0,1
-15,Acetylcysteine,Serine,{'SLC7A11;CBS'},5.0,3.0,1
-16,Acetylcysteine,Pyridoxal phosphate,{'SLC7A11;CBS'},5.0,3.0,1
-17,Acetylcysteine,Cysteine,{'SLC7A11;CBS'},5.0,3.0,1
-18,Riluzole,Pyridoxal phosphate,{'SLC7A11;CBS'},5.0,3.0,1
-19,Tauroursodeoxycholic acid,Ademetionine,{'SLC7A11;CBS'},5.0,3.0,1
-20,Sulfasalazine,Pyridoxal phosphate,{'SLC7A11;CBS'},5.0,3.0,1
-21,Taurocholic acid,Serine,{'SLC7A11;CBS'},5.0,3.0,1
-22,Taurocholic acid,Ademetionine,{'SLC7A11;CBS'},5.0,3.0,1
-23,Taurochenodeoxycholic acid,Serine,{'SLC7A11;CBS'},5.0,3.0,1
-24,Taurochenodeoxycholic acid,Ademetionine,{'SLC7A11;CBS'},5.0,3.0,1
-25,Sulfasalazine,Serine,{'SLC7A11;CBS'},5.0,3.0,1
-26,Sulfasalazine,Cysteine,{'SLC7A11;CBS'},5.0,3.0,1
-27,Sulfasalazine,Ademetionine,{'SLC7A11;CBS'},5.0,3.0,1
-28,Cytidine-5'-Monophosphate,Phosphatidyl serine,{'CMPK1;PTDSS1'},3.0,2.0,1
-29,Uridine-5'-Diphosphate,Phosphatidyl serine,{'CMPK1;PTDSS1'},3.0,2.0,1
-31,Tetrafluoroaluminate Ion,Phosphatidyl serine,{'CMPK1;PTDSS1'},3.0,2.0,1
-37,Lamivudine,Phosphatidyl serine,{'CMPK1;PTDSS1'},3.0,2.0,1
-40,DB03664,Phosphatidyl serine,{'CMPK1;PTDSS1'},3.0,2.0,1
-41,Sofosbuvir,Phosphatidyl serine,{'CMPK1;PTDSS1'},3.0,2.0,1
-42,Uridine-5'-Diphosphate,Proline,{'CMPK1;PLPBP'},2.0,2.0,1
-43,Sofosbuvir,Proline,{'CMPK1;PLPBP'},2.0,2.0,1
-44,Cytidine-5'-Monophosphate,Proline,{'CMPK1;PLPBP'},2.0,2.0,1
-45,Tetrafluoroaluminate Ion,Proline,{'CMPK1;PLPBP'},2.0,2.0,1
-46,Sofosbuvir,Clodronic acid,{'CMPK1;SLC25A6'},2.0,2.0,1
-47,Cytidine-5'-Monophosphate,Clodronic acid,{'CMPK1;SLC25A6'},2.0,2.0,1
-48,Tetrafluoroaluminate Ion,Clodronic acid,{'CMPK1;SLC25A6'},2.0,2.0,1
-50,Uridine-5'-Diphosphate,Clodronic acid,{'CMPK1;SLC25A6'},2.0,2.0,1
-51,Lamivudine,Proline,{'CMPK1;PLPBP'},2.0,2.0,1
-52,Lamivudine,Clodronic acid,{'CMPK1;SLC25A6'},2.0,2.0,1
-53,DB03664,Proline,{'CMPK1;PLPBP'},2.0,2.0,1
-54,DB03664,Clodronic acid,{'CMPK1;SLC25A6'},2.0,2.0,1
-55,Gemcitabine,Clodronic acid,{'CMPK1;SLC25A6'},2.0,2.0,1
+51,Didanosine,Gemcitabine,"{'CMPK1;PNP', 'SLC29A2;SLC29A1', 'CMPK1;SLC29A2', 'TYMS;SLC29A2'}",1.2,1.2,4
+48,Gemcitabine,Pyridoxal phosphate,"{'CMPK1;PLPBP', 'TYMS;PLPBP', 'CMPK1;AGXT'}",1.33,1.33,3
+49,Zalcitabine,Gemcitabine,"{'CMPK1;SLC29A2', 'SLC29A2;SLC29A1', 'TYMS;SLC29A2'}",1.25,1.25,3
+50,Mercaptopurine,Gemcitabine,"{'CMPK1;SLC29A2', 'SLC29A2;SLC29A1', 'TYMS;SLC29A2'}",1.25,1.25,3
+35,Gemcitabine,Phosphatidyl serine,"{'SLC29A2;PTDSS1', 'CMPK1;PTDSS1'}",2.0,2.0,2
+41,Cytidine-5'-Monophosphate,Pyridoxal phosphate,"{'CMPK1;PLPBP', 'CMPK1;AGXT'}",1.5,1.5,2
+42,DB03664,Pyridoxal phosphate,"{'CMPK1;PLPBP', 'CMPK1;AGXT'}",1.5,1.5,2
+43,Lamivudine,Pyridoxal phosphate,"{'CMPK1;PLPBP', 'CMPK1;AGXT'}",1.5,1.5,2
+44,Gemcitabine,Proline,"{'CMPK1;PLPBP', 'TYMS;PLPBP'}",1.5,1.5,2
+45,Uridine-5'-Diphosphate,Pyridoxal phosphate,"{'CMPK1;PLPBP', 'CMPK1;AGXT'}",1.5,1.5,2
+46,Tetrafluoroaluminate Ion,Pyridoxal phosphate,"{'CMPK1;PLPBP', 'CMPK1;AGXT'}",1.5,1.5,2
+47,Sofosbuvir,Pyridoxal phosphate,"{'CMPK1;PLPBP', 'CMPK1;AGXT'}",1.5,1.5,2
+0,2-Deoxy-Glucitol-6-Phosphate,Proline,{'ISYNA1;PLPBP'},9.0,2.0,1
+1,Glycerin,Proline,{'ISYNA1;PLPBP'},9.0,2.0,1
+2,Glycerin,Pyridoxal phosphate,{'ISYNA1;PLPBP'},9.0,2.0,1
+3,DB01840,Proline,{'ISYNA1;PLPBP'},9.0,2.0,1
+4,DB01840,Pyridoxal phosphate,{'ISYNA1;PLPBP'},9.0,2.0,1
+5,2-Deoxy-Glucitol-6-Phosphate,Pyridoxal phosphate,{'ISYNA1;PLPBP'},9.0,2.0,1
+6,Acetic acid,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+7,Uridine-5'-Diphosphate,Phosphatidyl serine,{'CMPK1;PTDSS1'},3.0,2.0,1
+8,Sofosbuvir,Phosphatidyl serine,{'CMPK1;PTDSS1'},3.0,2.0,1
+9,Methotrexate,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+10,Aminohippuric acid,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+11,DB03664,Phosphatidyl serine,{'CMPK1;PTDSS1'},3.0,2.0,1
+12,Mersalyl,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+13,Niflumic acid,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+14,Lactic acid,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+15,Acetoacetic Acid,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+16,Salicylic acid,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+17,Tetrafluoroaluminate Ion,Phosphatidyl serine,{'CMPK1;PTDSS1'},3.0,2.0,1
+18,Lamivudine,Phosphatidyl serine,{'CMPK1;PTDSS1'},3.0,2.0,1
+19,Nateglinide,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+20,Quercetin,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+21,D-Lactic acid,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+22,Benzoic acid,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+23,Cytidine-5'-Monophosphate,Phosphatidyl serine,{'CMPK1;PTDSS1'},3.0,2.0,1
+24,Probenecid,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+25,Arbaclofen Placarbil,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+26,Foscarnet,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+27,Ampicillin,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+28,alpha-D-quinovopyranose,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+29,alpha-Ketoisovalerate,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+30,gamma-Hydroxybutyric acid,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+31,Valproic acid,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+32,Pravastatin,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+33,Taurocholic acid,Phosphatidyl serine,{'SLC16A1;PTDSS1'},3.0,3.0,1
+34,Cytidine-5'-Monophosphate,Proline,{'CMPK1;PLPBP'},2.0,2.0,1
+36,Tetrafluoroaluminate Ion,Proline,{'CMPK1;PLPBP'},2.0,2.0,1
+37,Uridine-5'-Diphosphate,Proline,{'CMPK1;PLPBP'},2.0,2.0,1
+38,Sofosbuvir,Proline,{'CMPK1;PLPBP'},2.0,2.0,1
+39,Lamivudine,Proline,{'CMPK1;PLPBP'},2.0,2.0,1
+40,DB03664,Proline,{'CMPK1;PLPBP'},2.0,2.0,1
