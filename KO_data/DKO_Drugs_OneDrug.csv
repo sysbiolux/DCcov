@@ -1,50 +1,48 @@
 ,Drug,Gene_Pair,Phenotype_Essentiality,Phenotype_Safety,Number_Genes
-0,Gemcitabine,"{'CMPK1;SLC29A2', 'SLC29A2;SLC29A1', 'TYMS;SLC29A2'}",1.33,1.0,3
-1,Trifluridine,"{'TYMS;SLC29A2', 'SLC29A2;SLC29A1', 'TYMS;TYMP'}",1.0,1.0,3
-2,Mercaptopurine,"{'SLC29A2;SLC29A1', 'PPAT;HPRT1'}",3.0,1.0,2
-3,Tegafur-uracil,"{'TYMS;SLC29A2', 'SLC29A2;SLC29A1'}",1.0,1.0,2
-4,Lisinopril,{'SLC15A2;SLC15A1'},13.0,0.0,1
-5,Oxacillin,{'SLC15A2;SLC15A1'},13.0,0.0,1
+0,Gemcitabine,"{'CMPK1;SLC29A2', 'TYMS;SLC29A2', 'SLC29A2;SLC29A1'}",1.66,1.0,3
+1,Trifluridine,"{'TYMS;TYMP', 'TYMS;SLC29A2', 'SLC29A2;SLC29A1'}",1.33,1.0,3
+2,Mercaptopurine,"{'PPAT;HPRT1', 'SLC29A2;SLC29A1'}",3.5,1.0,2
+3,Tegafur-uracil,"{'TYMS;SLC29A2', 'SLC29A2;SLC29A1'}",1.5,1.0,2
+4,Valaciclovir,{'SLC15A2;SLC15A1'},13.0,0.0,1
+5,Moexipril,{'SLC15A2;SLC15A1'},13.0,0.0,1
 6,Nateglinide,{'SLC15A2;SLC15A1'},13.0,0.0,1
-7,Moexipril,{'SLC15A2;SLC15A1'},13.0,0.0,1
-8,Glyburide,{'SLC15A2;SLC15A1'},13.0,0.0,1
-9,Perindopril,{'SLC15A2;SLC15A1'},13.0,0.0,1
-10,Tolbutamide,{'SLC15A2;SLC15A1'},13.0,0.0,1
-11,Trandolapril,{'SLC15A2;SLC15A1'},13.0,0.0,1
-12,Valganciclovir,{'SLC15A2;SLC15A1'},13.0,0.0,1
-13,Ubenimex,{'SLC15A2;SLC15A1'},13.0,0.0,1
-14,Valaciclovir,{'SLC15A2;SLC15A1'},13.0,0.0,1
-15,Quinapril,{'SLC15A2;SLC15A1'},13.0,0.0,1
-16,Ramipril,{'SLC15A2;SLC15A1'},13.0,0.0,1
-17,Spirapril,{'SLC15A2;SLC15A1'},13.0,0.0,1
-18,Cefepime,{'SLC15A2;SLC15A1'},13.0,0.0,1
-19,Cefdinir,{'SLC15A2;SLC15A1'},13.0,0.0,1
-20,Cefixime,{'SLC15A2;SLC15A1'},13.0,0.0,1
-21,Cefaclor,{'SLC15A2;SLC15A1'},13.0,0.0,1
-22,Cefalotin,{'SLC15A2;SLC15A1'},13.0,0.0,1
-23,Ceftriaxone,{'SLC15A2;SLC15A1'},13.0,0.0,1
-24,Ceftibuten,{'SLC15A2;SLC15A1'},13.0,0.0,1
-25,Cefuroxime,{'SLC15A2;SLC15A1'},13.0,0.0,1
-26,Cephalexin,{'SLC15A2;SLC15A1'},13.0,0.0,1
-27,Cefotaxime,{'SLC15A2;SLC15A1'},13.0,0.0,1
-28,Cefmetazole,{'SLC15A2;SLC15A1'},13.0,0.0,1
-29,Ceftazidime,{'SLC15A2;SLC15A1'},13.0,0.0,1
-30,Cefradine,{'SLC15A2;SLC15A1'},13.0,0.0,1
-31,Azidocillin,{'SLC15A2;SLC15A1'},13.0,0.0,1
+7,Oxacillin,{'SLC15A2;SLC15A1'},13.0,0.0,1
+8,Perindopril,{'SLC15A2;SLC15A1'},13.0,0.0,1
+9,Lisinopril,{'SLC15A2;SLC15A1'},13.0,0.0,1
+10,Valganciclovir,{'SLC15A2;SLC15A1'},13.0,0.0,1
+11,Spirapril,{'SLC15A2;SLC15A1'},13.0,0.0,1
+12,Tolbutamide,{'SLC15A2;SLC15A1'},13.0,0.0,1
+13,Trandolapril,{'SLC15A2;SLC15A1'},13.0,0.0,1
+14,Ubenimex,{'SLC15A2;SLC15A1'},13.0,0.0,1
+15,Ramipril,{'SLC15A2;SLC15A1'},13.0,0.0,1
+16,Quinapril,{'SLC15A2;SLC15A1'},13.0,0.0,1
+17,Cefepime,{'SLC15A2;SLC15A1'},13.0,0.0,1
+18,Cefixime,{'SLC15A2;SLC15A1'},13.0,0.0,1
+19,Cefalotin,{'SLC15A2;SLC15A1'},13.0,0.0,1
+20,Cefdinir,{'SLC15A2;SLC15A1'},13.0,0.0,1
+21,Ceftazidime,{'SLC15A2;SLC15A1'},13.0,0.0,1
+22,Ceftriaxone,{'SLC15A2;SLC15A1'},13.0,0.0,1
+23,Ceftibuten,{'SLC15A2;SLC15A1'},13.0,0.0,1
+24,Cefmetazole,{'SLC15A2;SLC15A1'},13.0,0.0,1
+25,Cefradine,{'SLC15A2;SLC15A1'},13.0,0.0,1
+26,Cefotaxime,{'SLC15A2;SLC15A1'},13.0,0.0,1
+27,Amoxicillin,{'SLC15A2;SLC15A1'},13.0,0.0,1
+28,Aminolevulinic acid,{'SLC15A2;SLC15A1'},13.0,0.0,1
+29,Cefaclor,{'SLC15A2;SLC15A1'},13.0,0.0,1
+30,Benzylpenicillin,{'SLC15A2;SLC15A1'},13.0,0.0,1
+31,Ampicillin,{'SLC15A2;SLC15A1'},13.0,0.0,1
 32,Benazepril,{'SLC15A2;SLC15A1'},13.0,0.0,1
-33,Benzylpenicillin,{'SLC15A2;SLC15A1'},13.0,0.0,1
-34,Amoxicillin,{'SLC15A2;SLC15A1'},13.0,0.0,1
-35,Aminolevulinic acid,{'SLC15A2;SLC15A1'},13.0,0.0,1
-36,Ampicillin,{'SLC15A2;SLC15A1'},13.0,0.0,1
-37,Fosinopril,{'SLC15A2;SLC15A1'},13.0,0.0,1
-38,Dicloxacillin,{'SLC15A2;SLC15A1'},13.0,0.0,1
-39,Cloxacillin,{'SLC15A2;SLC15A1'},13.0,0.0,1
-40,Cyclacillin,{'SLC15A2;SLC15A1'},13.0,0.0,1
-41,Chlorpropamide,{'SLC15A2;SLC15A1'},13.0,0.0,1
-42,Cilazapril,{'SLC15A2;SLC15A1'},13.0,0.0,1
-43,DB02309,{'ATIC;HPRT1'},5.0,0.0,1
-44,Zalcitabine,{'SLC29A2;SLC29A1'},1.0,2.0,1
-45,Capecitabine,{'TYMS;TYMP'},1.0,1.0,1
-46,Fluorouracil,{'TYMS;TYMP'},1.0,1.0,1
-47,Floxuridine,{'TYMS;TYMP'},1.0,1.0,1
-48,Didanosine,{'SLC29A2;SLC29A1'},1.0,2.0,1
+33,Fosinopril,{'SLC15A2;SLC15A1'},13.0,0.0,1
+34,Glyburide,{'SLC15A2;SLC15A1'},13.0,0.0,1
+35,Chlorpropamide,{'SLC15A2;SLC15A1'},13.0,0.0,1
+36,Cilazapril,{'SLC15A2;SLC15A1'},13.0,0.0,1
+37,Cephalexin,{'SLC15A2;SLC15A1'},13.0,0.0,1
+38,Cefuroxime,{'SLC15A2;SLC15A1'},13.0,0.0,1
+39,Dicloxacillin,{'SLC15A2;SLC15A1'},13.0,0.0,1
+40,Cloxacillin,{'SLC15A2;SLC15A1'},13.0,0.0,1
+41,Cyclacillin,{'SLC15A2;SLC15A1'},13.0,0.0,1
+42,Zalcitabine,{'SLC29A2;SLC29A1'},2.0,2.0,1
+43,Didanosine,{'SLC29A2;SLC29A1'},2.0,2.0,1
+44,Capecitabine,{'TYMS;TYMP'},1.0,1.0,1
+45,Fluorouracil,{'TYMS;TYMP'},1.0,1.0,1
+46,Floxuridine,{'TYMS;TYMP'},1.0,1.0,1

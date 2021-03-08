@@ -1,9 +1,9 @@
 Gene_Symbol,Drugs,Phenotype_Safety,Phenotype_Essentiality
-GUK1,"['Acyclovir', 'Valaciclovir']",3.0,16.0
-ISYNA1,['2-Deoxy-Glucitol-6-Phosphate'],1.0,9.0
-SLC7A11,"['Riluzole', 'Taurochenodeoxycholic acid', 'Acetylcysteine', 'Thimerosal', 'Cystine', 'Rosuvastatin', 'Tauroursodeoxycholic acid', 'Taurocholic acid']",1.0,5.0
-CMPK1,"['Sofosbuvir', 'Lamivudine', 'DB03664']",3.0,4.0
-SLC7A5,"['Gabapentin', 'D-Leucine', 'Dextrothyroxine', 'Liothyronine', 'L-Glutamine', 'Thyroid, porcine', 'Levodopa', 'D-Phenylalanine']",1.0,3.0
-GLTP,"['Lactose', 'Capric acid', 'Sphingosine']",1.0,2.0
-DHFR,"['Gentamicin', 'Trimetrexate', 'DB08406', 'DB02583', 'DB03461', 'DB03987', 'DB02104', 'Aminopterin', 'Lamotrigine', 'Methotrexate', 'DB07144', 'Sri-9662']",1.0,1.0
-TYMS,"['Raltitrexed', 'Thymectacin', 'Fluorouracil', 'Tegafur-uracil', 'ANX-510', 'OSI-7904L', 'DB04530', 'Pemetrexed', 'DB08734', 'Tegafur', 'DB03541', 'DB08478', 'DB08479', 'Gemcitabine']",1.0,1.0
+GUK1,"['Valaciclovir', 'Acyclovir']",3.0,16.0
+ISYNA1,['Glycerin'],1.0,9.0
+SLC7A11,"['Riluzole', 'Taurocholic acid', 'Alanosine', 'Thimerosal', 'Tauroursodeoxycholic acid', 'Rosuvastatin', 'Acetylcysteine', 'Sulfasalazine']",1.0,5.0
+CMPK1,"['Lamivudine', 'Gemcitabine', 'Sofosbuvir']",3.0,4.0
+SLC7A5,"['Dextrothyroxine', 'Pregabalin', 'Levothyroxine', 'Liothyronine', 'Melphalan', 'Gabapentin', 'Levodopa', 'Thyroid, porcine']",1.0,3.0
+GLTP,"['Oleic Acid', 'Lactose', 'Lauric acid']",1.0,2.0
+DHFR,"['Methotrexate', 'Pyrimethamine', 'Pemetrexed', 'Lamotrigine', 'Piritrexim', 'Pralatrexate', 'Trimetrexate', 'Proguanil', 'Iclaprim', 'Gentamicin']",1.0,1.0
+TYMS,"['ANX-510', 'Fluorouracil', 'Capecitabine', 'Methotrexate', 'Floxuridine', 'Thymectacin', 'Trifluridine', 'Gemcitabine', 'Pemetrexed', 'Pralatrexate', 'OSI-7904L', 'Tegafur', 'Tegafur-uracil', 'Raltitrexed']",1.0,1.0
