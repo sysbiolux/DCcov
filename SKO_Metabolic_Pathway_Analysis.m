@@ -12,7 +12,8 @@ Recon3DModel.genes = genes;
 
 recon_model = Recon3DModel;
 load('dico_recon.mat')
-
+idx = find(contains(string(recon_model.subSystems),"Pyrimidine"));
+[string(recon_model.subSystems(idx)),recon_model.subSystems(idx)]
 %% Lung study 1
 sko_df = readtable('KO_data/severity_SKO_All.csv');
 
@@ -31,12 +32,11 @@ for i=1:numel(grps)
     sko = strjoin(sko,',');
     sko = unique(strsplit(sko,','));
     sko(find(ismember(sko,""))) = [];
-    % Find shared genes between RECON model genes and DEGs
+    % Find shared genes between RECON model genes and SKO
     genes_metabolic=find(ismember(recon_model.genes,sko));
     [r_genes,~]=find(recon_model.rxnGeneMat(:, genes_metabolic));
     genes_ss=recon_model.subSystems(r_genes);
 
-    %
     [pathways_genes, ~, ub] = unique(string(genes_ss));
     path_genes = histc(ub, 1:length(pathways_genes))*1;
     grp = repmat(string(grp),size(path_genes,1),1);
