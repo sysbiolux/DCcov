@@ -65,7 +65,7 @@ Download manually the FPKM for the polyA of GSE148729: https://filetransfer.mdc-
 ### Calculate the differentially expressed metabolic pathways
 #### Calculate differentially expressed reactions (DER) for the severity study
 `matlab -nodisplay -nodesktop -r Differentially_Expressed_Reactions_Table.m`
-#### Visualize DER\nouput in Figs
+#### Visualize DERs
 `jupyter nbconvert --to notebook --inplace --execute Visualize_Differentially_Expressed_Pathways.ipynb`
 
 ### Step 3: 
@@ -78,6 +78,7 @@ Download manually the FPKM for the polyA of GSE148729: https://filetransfer.mdc-
 #### Extract metadata and calculate RPKM for model building for the severity study
 `jupyter nbconvert --to notebook --inplace --execute  Calculate_RPKM.ipynb`
 
+![Differentially Expressed Metabolic Pathways](/Figs/Differentially_Expressed_Reactions_All_Sorted.png)
 
 ### Step 4:
 ### Model building, then single and double gene deletion 
