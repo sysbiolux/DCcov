@@ -6,16 +6,12 @@ Drug repositioning of single and drug combinations using Flux Balance Analysis
 * [Pipeline](#pipeline)
 * [Installation](#installation)
 * [Analysis](#analysis)
-** [Step 1: Download the raw expression data]
-** [Step 2: Calculate the differentially expressed metabolic pathways]
-** [Step 3: Extract the metadata from the FPKM and read count files of the severity study]
-** [Step 4 Model building, then single and double gene deletion]
-** [Step 5: Drug repurpusing]
+
 
 ## Publication
-The code for: Candidate selection for repositioning of metabolic drugs and drug combinations for SARS-CoV-2 infected lung tissue through network analysis
-Ali Kishk, Maria Pires Pacheco, Thomas Sauter
-University of Luxembourg
+> Candidate selection for repositioning of metabolic drugs and drug combinations for SARS-CoV-2 infected lung tissue through network analysis
+> Ali Kishk, Maria Pires Pacheco, Thomas Sauter
+> University of Luxembourg
 
 ## Pipeline_Overview
 ![Pipeline](/Figs/Fig2_Extended.png)
