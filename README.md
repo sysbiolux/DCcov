@@ -32,7 +32,7 @@ R:
 *	networkD3==0.4
 *	ggplot==3.3.3
 
-Python:
+Python:  
 `apt install python3.7`  
 `pip install gseapy==0.9.17 jupyter==4.5.0 numpy pandas seaborn matplotlib  `
 
