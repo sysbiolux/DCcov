@@ -6,7 +6,7 @@ Drug repositioning of single and drug combinations using Flux Balance Analysis
 * [Pipeline](#pipeline)
 * [Installation](#installation)
 * [Analysis](#analysis)
-** [Analysis](#analysis) Step 1: Download the raw expression data 
+** Step 1: Download the raw expression data 
 ** Step 2: Calculate the differentially expressed metabolic pathways
 ** Step 3: Extract the metadata from the FPKM and read count files of the severity study 
 ** Step 4 Model building, then single and double gene deletion 
