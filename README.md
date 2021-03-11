@@ -24,7 +24,7 @@ Matlab:
 
 R: 
 `apt install r-base r-base-core r-recommended r-base-dev`
-# Most needed R packages can be installed from:
+#### Most needed R packages can be installed from:
 `Rscript Install_R_Dependancies.R`
 *	edgeR==3.30.3
 *	DESeq2==1.28.1
@@ -33,8 +33,8 @@ R:
 *	ggplot==3.3.3
 
 Python:
-`apt install python3.7
-pip install gseapy==0.9.17 jupyter==4.5.0 numpy pandas seaborn matplotlib`
+`apt install python3.7`
+`pip install gseapy==0.9.17 jupyter==4.5.0 numpy pandas seaborn matplotlib`
 
 
 ## Analysis
@@ -43,14 +43,12 @@ pip install gseapy==0.9.17 jupyter==4.5.0 numpy pandas seaborn matplotlib`
 ### Download the raw expression data 
 
 #### Create a new directory to download the read count data in
-`mkdir data
-mkdir data/time_series_study
-mkdir data/severity_study`
+`mkdir data data/time_series_study data/severity_study`
 
 #### Begin downloading the FPKM / RPKM and metadata
 ##### The severity study
-`wget ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE147nnn/GSE147507/suppl/GSE147507_RawReadCounts_Human.tsv.gz -P data/severity_study/
-gunzip data/severity_study/GSE147507_RawReadCounts_Human.tsv.gz`
+`wget ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE147nnn/GSE147507/suppl/GSE147507_RawReadCounts_Human.tsv.gz -P data/severity_study/`
+`gunzip data/severity_study/GSE147507_RawReadCounts_Human.tsv.gz`
 ##### The time-series study
 Download manually the FPKM for the polyA of GSE148729: https://filetransfer.mdc-berlin.de/?u=CVXckugR&p=MACT6Xw9
 * SupplementaryData2_Calu3_polyA_series1_fpkm.tsv	
@@ -58,11 +56,10 @@ Download manually the FPKM for the polyA of GSE148729: https://filetransfer.mdc-
 * SupplementaryData3_Calu3_polyA_series2_fpkm.tsv
 
 #### PCA analysis on the severity study
-`mkdir Figs
-Rscript PCA_analysis.R`
+`mkdir Figs data/severity_study/DEGs`
+`Rscript PCA_analysis.R`
 #### DEG analysis on the severity study
-`mkdir ./data/severity_study/DEGs
-Rscript DEG_analysis.R`
+`Rscript DEG_analysis.R`
 
 ### Step 2: 
 ### Calculate the differentially expressed metabolic pathways
@@ -84,27 +81,23 @@ Rscript DEG_analysis.R`
 
 ### Step 4:
 ### Model building, then single and double gene deletion 
-`mkdir models
-mkdir models/timeseries models/severity
-mkdir KO_data
-mkdir KO_data/timeseries KO_data/severity
-mkdir Figs`
+`mkdir models models/timeseries models/severity KO_data KO_data/timeseries KO_data/severity`
 
 #### Model building and single and double gene deletion on the severity study
-`matlab -nodisplay -nodesktop -r Model_building_severity_Recon3D.m
-matlab -nodisplay -nodesktop -r Model_building_severity_Recon2.m`
+`matlab -nodisplay -nodesktop -r Model_building_severity_Recon3D.m `
+`matlab -nodisplay -nodesktop -r Model_building_severity_Recon2.m`
 #### Model building and single and double gene deletion on the time series study
-`matlab -nodisplay -nodesktop -r Model_building_timeseries_Recon3D.m
-matlab -nodisplay -nodesktop -r Model_building_timeseries_Recon2.m`
+`matlab -nodisplay -nodesktop -r Model_building_timeseries_Recon3D.m`
+`matlab -nodisplay -nodesktop -r Model_building_timeseries_Recon2.m`
 #### Summerize all KO results from different conditions and models
-`matlab -nodisplay -nodesktop -r Summarize_KO_Results_severity.m
-matlab -nodisplay -nodesktop -r Summarize_KO_Results_timeseries.m`
+`matlab -nodisplay -nodesktop -r Summarize_KO_Results_severity.m`
+`matlab -nodisplay -nodesktop -r Summarize_KO_Results_timeseries.m`
 
 #### Pathway analysis of the SKO and DKO using KEGG
 `jupyter nbconvert --to notebook --inplace --execute Enrichment_Analysis_KEGG.ipynb`
 #### Metabolic Pathway Analysis of the SKO genes
-`matlab -nodisplay -nodesktop -r  SKO_Metabolic_Pathway_Analysis.m
-jupyter nbconvert --to notebook --inplace --execute Visualize_SKO_Pathways.ipynb`
+`matlab -nodisplay -nodesktop -r  SKO_Metabolic_Pathway_Analysis.m`
+`jupyter nbconvert --to notebook --inplace --execute Visualize_SKO_Pathways.ipynb`
 
 ### Step 5: 
 ### Drug Repurpusing for single and drug combinations
@@ -115,5 +108,5 @@ jupyter nbconvert --to notebook --inplace --execute Visualize_SKO_Pathways.ipynb
 #### Calculate essentiality and safety and apply drug repurusing using DrugBank for single and double gene deletion
 `jupyter nbconvert --to notebook --inplace --execute  Drug_Repurposing_DrugBank.ipynb`
 #### Build a tripartite network of all drug-gene-pathways interactions for single and double gene deletion
-`jupyter nbconvert --to notebook --inplace --execute  Drug_Repurposing_Map_Drug_Gene_Pathway.ipynb
-Rscript Visualize_Tripartite_Drug_Gene_Pathway.R`
+`jupyter nbconvert --to notebook --inplace --execute  Drug_Repurposing_Map_Drug_Gene_Pathway.ipynb`
+`Rscript Visualize_Tripartite_Drug_Gene_Pathway.R`
