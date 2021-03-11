@@ -4,17 +4,47 @@ Drug repositioning of single and drug combinations using Flux Balance Analysis:
 ## Table of contents
 * [Publication](#publication)
 * [Pipeline](#pipeline)
+* [Abstract](#abstract)
+* [Results](#results)
 * [Installation](#installation)
 * [Analysis](#analysis)
 
 
 ## Publication
-> Candidate selection for repositioning of metabolic drugs and drug combinations for SARS-CoV-2 infected lung tissue through network analysis.
-> Ali Kishk, Maria Pires Pacheco, Thomas Sauter.
+> Candidate selection for repositioning of metabolic drugs and drug combinations for SARS-CoV-2 infected lung tissue through network analysis. [Under Review] 
+> Ali Kishk, Maria Pires Pacheco, Thomas Sauter. [Under Review]
 > University of Luxembourg.
 
 ## Pipeline
 ![Pipeline](/Figs/Fig2_Extended.png)
+
+## Abstract
+The 2019 coronavirus disease (COVID-19) became a worldwide pandemic with currently no
+effective antiviral drug except treatments for symptomatic therapy. Flux balance analysis is an
+efficient method to analyze metabolic networks. It allows optimizing for a metabolic function
+and thus e.g. predicting the growth rate of a specific cell or the production rate of a metabolite
+of interest. Here flux balance analysis was applied on human lung cells infected with severe
+acute respiratory syndrome coronavirus 2 (SARS-CoV-2) to reposition metabolic drugs and
+drug combinations against the replication of the SARS-CoV-2 virus within the host tissue.
+Making use of expression data sets of infected lung tissue, genome-scale COVID-19-specific
+metabolic models were reconstructed. Then host-specific essential genes and gene-pairs
+were determined through in-silico knockouts that permit reducing the viral biomass production
+without affecting the host biomass. Key pathways that are associated with COVID-19 severity
+in lung tissue are related to oxidative stress, as well as ferroptosis, sphingolipid metabolism,
+cysteine metabolism, and fat digestion. By in-silico screening of FDA approved drugs on the
+putative disease-specific essential genes and gene-pairs, 45 drugs and 99 drug combinations
+were predicted as promising candidates for COVID-19 focussed drug repositioning. Among
+the 45 drug candidates, six antiviral drugs were found and seven drugs that are being tested
+in clinical trials against COVID-19. Other drugs like gemcitabine, rosuvastatin and
+acetylcysteine, and drug combinations like azathioprine-pemetrexed might offer new chances
+for treating COVID-19. 
+
+## Results
+### Repositioned Drugs from Single Gene Deletion, with Their Essential Genes and Pathways
+![](/Figs/Fig3.png)
+
+### Repositioned Drug Combination from Double Gene Deletion, with Their Essential Gene-Pairs and Pathways
+![](/Figs/DKO_image_combined.png)
 
 ## Installation
 
@@ -113,8 +143,3 @@ Download manually the FPKM for the polyA of GSE148729: https://filetransfer.mdc-
 `jupyter nbconvert --to notebook --inplace --execute  Drug_Repurposing_Map_Drug_Gene_Pathway.ipynb`  
 `Rscript Visualize_Tripartite_Drug_Gene_Pathway.R`
 
-### Repositioned Drugs from Single Gene Deletion, with Their Essential Genes and Pathways
-![](/Figs/Fig3.png)
-
-### Repositioned Drug Combination from Double Gene Deletion, with Their Essential Gene-Pairs and Pathways
-![](/Figs/DKO_image_combined.png)
