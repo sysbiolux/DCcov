@@ -19,8 +19,8 @@ Drug repositioning of single and drug combinations using Flux Balance Analysis
 ## Installation
 
 Matlab:
-	COBRA Toolbox V3: https://opencobra.github.io/cobratoolbox/stable/installation.html
-	rFASTCORMICS: https://wwwen.uni.lu/research/fstm/dlsm/research_areas/systems_biology/software/rfastcormics
+*	COBRA Toolbox V3: https://opencobra.github.io/cobratoolbox/stable/installation.html
+*	rFASTCORMICS: https://wwwen.uni.lu/research/fstm/dlsm/research_areas/systems_biology/software/rfastcormics
 
 R: 
 `apt install r-base r-base-core r-recommended r-base-dev`
@@ -33,8 +33,8 @@ R:
 *	ggplot==3.3.3
 
 Python:
-`apt install python3.7`
-`pip install gseapy==0.9.17 jupyter==4.5.0 numpy pandas seaborn matplotlib`
+`apt install python3.7  `
+`pip install gseapy==0.9.17 jupyter==4.5.0 numpy pandas seaborn matplotlib  `
 
 
 ## Analysis
