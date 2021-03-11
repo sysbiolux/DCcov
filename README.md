@@ -1,12 +1,16 @@
 # COVID-19_FBA
-> Drug repositioning of single and drug combinations using Flux Balance Analysis
+Drug repositioning of single and drug combinations using Flux Balance Analysis
 
 ## Table of contents
 * [Publication](#publication)
 * [Pipeline](#pipeline)
 * [Installation](#installation)
 * [Analysis](#analysis)
-* [Contact](#contact)
+** [Analysis](#analysis) Step 1: Download the raw expression data 
+** Step 2: Calculate the differentially expressed metabolic pathways
+** Step 3: Extract the metadata from the FPKM and read count files of the severity study 
+** Step 4 Model building, then single and double gene deletion 
+** Step 5: Drug repurpusing 
 
 ## Publication
 The code for: Candidate selection for repositioning of metabolic drugs and drug combinations for SARS-CoV-2 infected lung tissue through network analysis
@@ -26,11 +30,11 @@ R:
 `apt install r-base r-base-core r-recommended r-base-dev`
 # Most needed R packages can be installed from:
 `Rscript Install_R_Dependancies.R`
-####	edgeR==3.30.3
-####	DESeq2==1.28.1
-####	FactoMineR==2.4
-####	networkD3==0.4
-####	ggplot==3.3.3
+*	edgeR==3.30.3
+*	DESeq2==1.28.1
+*	FactoMineR==2.4
+*	networkD3==0.4
+*	ggplot==3.3.3
 
 Python:
 `apt install python3.7
@@ -52,7 +56,6 @@ mkdir data/severity_study`
 gunzip data/severity_study/GSE147507_RawReadCounts_Human.tsv.gz`
 ##### The time-series study
 Download manually the FPKM for the polyA of GSE148729: https://filetransfer.mdc-berlin.de/?u=CVXckugR&p=MACT6Xw9
-## To download
 * SupplementaryData2_Calu3_polyA_series1_fpkm.tsv	
 * SupplementaryData5_H1299_polyA_fpkm.tsv
 * SupplementaryData3_Calu3_polyA_series2_fpkm.tsv
@@ -105,7 +108,7 @@ jupyter nbconvert --to notebook --inplace --execute Visualize_SKO_Pathways.ipynb
 
 ### Step 5: Drug repurpusing ###
 `mkdir drugbank`
-#### download DrugBank .xml  manually to drukbank folder
+#### Download DrugBank .xml  manually to drukbank folder
 #### convert .xml to csv and integrate MedDRA side effect database
 `jupyter nbconvert --to notebook --inplace --execute  DrugBank-MedDRA_Integration.ipynb`
 #### Calculate essentiality and safety and apply drug repurusing using DrugBank for single and double gene deletion
