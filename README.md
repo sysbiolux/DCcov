@@ -90,7 +90,7 @@ mkdir KO_data
 mkdir KO_data/timeseries KO_data/severity
 mkdir Figs`
 
-## Model building and single and double gene deletion on the severity study
+#### Model building and single and double gene deletion on the severity study
 `matlab -nodisplay -nodesktop -r Model_building_severity_Recon3D.m
 matlab -nodisplay -nodesktop -r Model_building_severity_Recon2.m`
 #### Model building and single and double gene deletion on the time series study
