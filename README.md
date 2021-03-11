@@ -48,7 +48,7 @@ Python:
 #### Begin downloading the FPKM / RPKM and metadata
 ##### The severity study
 `wget ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE147nnn/GSE147507/suppl/GSE147507_RawReadCounts_Human.tsv.gz -P data/severity_study/`  
-`gunzip data/severity_study/GSE147507_RawReadCounts_Human.tsv.gz`  
+`gunzip data/severity_study/GSE147507_RawReadCounts_Human.tsv.gz`
 ##### The time-series study  
 Download manually the FPKM for the polyA of GSE148729: https://filetransfer.mdc-berlin.de/?u=CVXckugR&p=MACT6Xw9
 * SupplementaryData2_Calu3_polyA_series1_fpkm.tsv	
@@ -78,6 +78,7 @@ Download manually the FPKM for the polyA of GSE148729: https://filetransfer.mdc-
 #### Extract metadata and calculate RPKM for model building for the severity study
 `jupyter nbconvert --to notebook --inplace --execute  Calculate_RPKM.ipynb`  
 
+### Differentially Expressed Metabolic Pathways
 ![Differentially Expressed Metabolic Pathways](/Figs/Differentially_Expressed_Reactions_All_Sorted.png)
 
 ### Step 4:
@@ -111,3 +112,9 @@ Download manually the FPKM for the polyA of GSE148729: https://filetransfer.mdc-
 #### Build a tripartite network of all drug-gene-pathways interactions for single and double gene deletion
 `jupyter nbconvert --to notebook --inplace --execute  Drug_Repurposing_Map_Drug_Gene_Pathway.ipynb`  
 `Rscript Visualize_Tripartite_Drug_Gene_Pathway.R`
+
+### Repositioned Drugs from Single Gene Deletion, with Their Essential Genes and Pathways
+![](/Figs/Fig3.png)
+
+### Repositioned Drug Combination from Double Gene Deletion, with Their Essential Gene-Pairs and Pathways
+![](/Figs/DKO_image_combined.png)
