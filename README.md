@@ -9,9 +9,9 @@ Drug repositioning of single and drug combinations using Flux Balance Analysis
 
 
 ## Publication
-> Candidate selection for repositioning of metabolic drugs and drug combinations for SARS-CoV-2 infected lung tissue through network analysis
-> Ali Kishk, Maria Pires Pacheco, Thomas Sauter
-> University of Luxembourg
+> Candidate selection for repositioning of metabolic drugs and drug combinations for SARS-CoV-2 infected lung tissue through network analysis.
+> Ali Kishk, Maria Pires Pacheco, Thomas Sauter.
+> University of Luxembourg.
 
 ## Pipeline_Overview
 ![Pipeline](/Figs/Fig2_Extended.png)
@@ -39,7 +39,8 @@ pip install gseapy==0.9.17 jupyter==4.5.0 numpy pandas seaborn matplotlib`
 
 ## Analysis
 
-### Step 1: Download the raw expression data 
+### Step 1: 
+### Download the raw expression data 
 
 #### Create a new directory to download the read count data in
 `mkdir data
@@ -63,13 +64,15 @@ Rscript PCA_analysis.R`
 `mkdir ./data/severity_study/DEGs
 Rscript DEG_analysis.R`
 
-### Step 2: Calculate the differentially expressed metabolic pathways
+### Step 2: 
+### Calculate the differentially expressed metabolic pathways
 #### Calculate differentially expressed reactions (DER) for the severity study
 `matlab -nodisplay -nodesktop -r Differentially_Expressed_Reactions_Table.m`
 #### Visualize DER\nouput in Figs
 `jupyter nbconvert --to notebook --inplace --execute Visualize_Differentially_Expressed_Pathways.ipynb`
 
-### Step 3: Extract the metadata from the FPKM and read count files of the severity study ###
+### Step 3: 
+### Extract the metadata from the FPKM and read count files of the severity study 
 #### The time-series study
 #### Extract metadata and\nDividing the lung FPKM according to ecah phenotype to a seperate csv file for model reconstruction 
 `jupyter nbconvert --to notebook --inplace --execute FPKM_Dividing_Timeseries_Study.ipynb`
@@ -79,7 +82,8 @@ Rscript DEG_analysis.R`
 `jupyter nbconvert --to notebook --inplace --execute  Calculate_RPKM.ipynb`
 
 
-### Step 4 Model building, then single and double gene deletion ###
+### Step 4:
+### Model building, then single and double gene deletion 
 `mkdir models
 mkdir models/timeseries models/severity
 mkdir KO_data
@@ -102,7 +106,8 @@ matlab -nodisplay -nodesktop -r Summarize_KO_Results_timeseries.m`
 `matlab -nodisplay -nodesktop -r  SKO_Metabolic_Pathway_Analysis.m
 jupyter nbconvert --to notebook --inplace --execute Visualize_SKO_Pathways.ipynb`
 
-### Step 5: Drug repurpusing ###
+### Step 5: 
+### Drug Repurpusing for single and drug combinations
 `mkdir drugbank`
 #### Download DrugBank .xml  manually to drukbank folder
 #### convert .xml to csv and integrate MedDRA side effect database
