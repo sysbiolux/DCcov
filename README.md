@@ -12,7 +12,7 @@ Drug repositioning of single and drug combinations using Flux Balance Analysis:
 
 ## Publication
 > Candidate selection for repositioning of metabolic drugs and drug combinations for SARS-CoV-2 infected lung tissue through network analysis. [Under Review] 
-> Ali Kishk, Maria Pires Pacheco, Thomas Sauter. [Under Review]
+> Ali Kishk, Maria Pires Pacheco, Thomas Sauter.
 > University of Luxembourg.
 
 ## Pipeline
