@@ -11,7 +11,7 @@ Drug repositioning of single and drug combinations using Flux Balance Analysis:
 
 
 ## Publication
-> DrugCombCoV: Repositioning of Drugs and Drug Combinations for SARS-CoV-2 Infected Lung through Constraint-Based Modelling. [Under Review] 
+> DCcov: Repositioning of Drugs and Drug Combinations for SARS-CoV-2 Infected Lung through Constraint-Based Modelling. [Under Review] 
 > Ali Kishk, Maria Pires Pacheco, Thomas Sauter.
 > University of Luxembourg.
 
@@ -33,7 +33,7 @@ without affecting the host biomass. Key pathways that are associated with COVID-
 in lung tissue are related to oxidative stress, as well as ferroptosis, sphingolipid metabolism,
 cysteine metabolism, and fat digestion. By in-silico screening of FDA approved drugs on the
 putative disease-specific essential genes and gene-pairs, 45 drugs and 99 drug combinations
-were predicted as promising candidates for COVID-19 focussed drug repositioning. Among
+were predicted as promising candidates for COVID-19 focussed drug repositioning (https://github.com/sysbiolux/DCcov). Among
 the 45 drug candidates, six antiviral drugs were found and seven drugs that are being tested
 in clinical trials against COVID-19. Other drugs like gemcitabine, rosuvastatin and
 acetylcysteine, and drug combinations like azathioprine-pemetrexed might offer new chances
