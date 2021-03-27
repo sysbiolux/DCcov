@@ -1,4 +1,4 @@
-# COVID-19_FBA
+# DCcov
 Drug repositioning of single and drug combinations using Flux Balance Analysis:
 
 ## Table of contents
@@ -14,6 +14,7 @@ Drug repositioning of single and drug combinations using Flux Balance Analysis:
 > DCcov: Repositioning of Drugs and Drug Combinations for SARS-CoV-2 Infected Lung through Constraint-Based Modelling. [Under Review] 
 > Ali Kishk, Maria Pires Pacheco, Thomas Sauter.
 > University of Luxembourg.
+> arXiv: https://arxiv.org/abs/2103.13844
 
 ## Pipeline
 ![Pipeline](/Figs/Fig2_Extended.png)
