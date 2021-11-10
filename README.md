@@ -11,34 +11,14 @@ Drug repositioning of single and drug combinations using Flux Balance Analysis:
 
 
 ## Publication
-> DCcov: Repositioning of Drugs and Drug Combinations for SARS-CoV-2 Infected Lung through Constraint-Based Modelling. [Under Review] 
-> Ali Kishk, Maria Pires Pacheco, Thomas Sauter.
+> Kishk, Ali, Maria Pires Pacheco, and Thomas Sauter. ‘DCcov: Repositioning of Drugs and Drug Combinations for SARS-CoV-2 Infected Lung through Constraint-Based Modeling’. IScience 24, no. 11 (19 November 2021): 103331. https://doi.org/10.1016/j.isci.2021.103331.
 > University of Luxembourg.
-> arXiv: https://arxiv.org/abs/2103.13844
 
 ## Pipeline
 ![Pipeline](/Figs/Fig2_Extended.png)
 
 ## Abstract
-The 2019 coronavirus disease (COVID-19) became a worldwide pandemic with currently no
-effective antiviral drug except treatments for symptomatic therapy. Flux balance analysis is an
-efficient method to analyze metabolic networks. It allows optimizing for a metabolic function
-and thus e.g. predicting the growth rate of a specific cell or the production rate of a metabolite
-of interest. Here flux balance analysis was applied on human lung cells infected with severe
-acute respiratory syndrome coronavirus 2 (SARS-CoV-2) to reposition metabolic drugs and
-drug combinations against the replication of the SARS-CoV-2 virus within the host tissue.
-Making use of expression data sets of infected lung tissue, genome-scale COVID-19-specific
-metabolic models were reconstructed. Then host-specific essential genes and gene-pairs
-were determined through in-silico knockouts that permit reducing the viral biomass production
-without affecting the host biomass. Key pathways that are associated with COVID-19 severity
-in lung tissue are related to oxidative stress, as well as ferroptosis, sphingolipid metabolism,
-cysteine metabolism, and fat digestion. By in-silico screening of FDA approved drugs on the
-putative disease-specific essential genes and gene-pairs, 45 drugs and 99 drug combinations
-were predicted as promising candidates for COVID-19 focussed drug repositioning (https://github.com/sysbiolux/DCcov). Among
-the 45 drug candidates, six antiviral drugs were found and seven drugs that are being tested
-in clinical trials against COVID-19. Other drugs like gemcitabine, rosuvastatin and
-acetylcysteine, and drug combinations like azathioprine-pemetrexed might offer new chances
-for treating COVID-19. 
+The 2019 coronavirus disease (COVID-19) became a worldwide pandemic with currently no approved effective antiviral drug. Flux balance analysis (FBA) is an efficient method to analyze metabolic networks. Here, FBA was applied on human lung cells infected with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) to reposition metabolic drugs and drug combinations against the virus replication within the host tissue. Making use of expression datasets of infected lung tissue, genome-scale COVID-19-specific metabolic models were reconstructed. Then, host-specific essential genes and gene pairs were determined through in silico knockouts that permit reducing the viral biomass production without affecting the host biomass. Key pathways that are associated with COVID-19 severity in lung tissue are related to oxidative stress, ferroptosis, and pyrimidine metabolism. By in silico screening of Food and Drug Administration (FDA)-approved drugs on the putative disease-specific essential genes and gene pairs, 85 drugs and 52 drug combinations were predicted as promising candidates for COVID-19 (https://github.com/sysbiolux/DCcov). 
 
 ## Results
 ### Repositioned Drugs from Single Gene Deletion, with Their Essential Genes and Pathways
