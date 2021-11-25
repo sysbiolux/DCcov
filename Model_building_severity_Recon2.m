@@ -35,6 +35,9 @@ epsilon = 1e-4;
 % inhouse dictionary for recon model
 % for other models and data, the user has to create a dictionary using for~
 % instance biomart or db2db
+if exist('data/dico_201911.mat.gz')>=1 % Extracting the compressed dictionary
+    gunzip('data/dico_201911.mat.gz')
+end
 load('./dico_201911.mat');
 
 % add viral biomass equation from https://www.ebi.ac.uk/biomodels/MODEL2003020001
@@ -72,7 +75,7 @@ for l=1:numel(target_conditions)
     
     % Reconstruct infected model
     discretized = discretize_FPKM(rpkm_cov, mock_idx);
-    [~, A] = fastcormics_2018(Recon2_inf, discretized, rownames, dico, already_mapped_tag, consensus_proportion, 1e-4, optional_settings_);
+    [~, A] = fastcormics_RNAseq(Recon2_inf, discretized, rownames, dico, already_mapped_tag, consensus_proportion, 1e-4, optional_settings_);
 
     % check model consistency
     models_keep = zeros(numel(Recon2_inf.rxns), 1); 
@@ -124,7 +127,7 @@ for l=1:numel(target_conditions)
     if numel(mock_idx)>=2
         % Reconstruct infected model
         discretized = discretize_FPKM(rpkm_ctl, mock_idx);
-        [~, A] = fastcormics_2018(Recon2, discretized, rownames, dico, already_mapped_tag, consensus_proportion, 1e-4, optional_settings);
+        [~, A] = fastcormics_RNAseq(Recon2, discretized, rownames, dico, already_mapped_tag, consensus_proportion, 1e-4, optional_settings);
 
         % check model consistency
         models_keep = zeros(numel(Recon2.rxns), 1); 
