@@ -31,7 +31,7 @@ The 2019 coronavirus disease (COVID-19) became a worldwide pandemic with current
 
 Matlab:
 *	COBRA Toolbox V3: https://opencobra.github.io/cobratoolbox/stable/installation.html
-*	rFASTCORMICS: https://wwwen.uni.lu/research/fstm/dlsm/research_areas/systems_biology/software/rfastcormics
+*	rFASTCORMICS: https://github.com/sysbiolux/rFASTCORMICS
 
 R: 
 `apt install r-base r-base-core r-recommended r-base-dev`
